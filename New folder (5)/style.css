@@ -1,0 +1,98 @@
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.pink {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 10px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+.sm1 {
+    width: 280px;
+    height: 180px;
+    background-color: lime;
+    border-radius: 10px;
+
+    position: absolute;
+    left: 20%;
+    bottom: 60%;
+
+    background: url(https://hips.hearstapps.com/hmg-prod/images/ginger-maine-coon-kitten-running-on-lawn-in-royalty-free-image-1719608142.jpg?crop=1xw:0.84415xh;0,0.185xh);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.smile {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+
+    position: absolute;
+    right: 20%;
+    top: 8%;
+
+    z-index: -1;
+}
+
+.blue {
+    margin-left: 625px;
+    margin-top: 100px;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: purple;
+    position: relative;
+    background: url(https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.red:hover {
+    background-color: rgb(0, 0, 0);
+    border: 5px solid pink;
+}
+
+
+.blue:hover {
+    background-color: rgb(0, 0, 0);
+    border: solid 5px pink;
+}
+
+
+
+.pink:hover {
+    background-color: rgb(0, 0, 0);
+    border: 5px solid pink;
+}
+
+.smile:hover {
+    background-color: black;
+    border: solid pink 5px;
+}
+
+.sm1:hover {
+    background-color: black;
+    border: pink solid 5px;
+}
